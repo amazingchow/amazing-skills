@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Project From Scratch"
+  short_description: "Scaffold Python projects from config"
+  default_prompt: "Use $python-project-from-scratch to scaffold a new Python project from a config file."

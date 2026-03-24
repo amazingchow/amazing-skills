@@ -1,0 +1,13 @@
+project_name = "acme-service"
+project_description = "Production-ready Python service scaffolded from a config file."
+your_real_name = "Ada Lovelace"
+your_email = "ada@example.com"
+your_github_username = "adal"
+
+# Optional. If omitted, the renderer derives it from project_name.
+package_name = "acme_service"
+
+# Optional defaults:
+python_version = "3.12"
+minimum_python_version = "3.12"
+copyright_year = "2026"
