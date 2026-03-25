@@ -56,10 +56,10 @@ help:  ## Display this help screen
 ##@ Workflows
 
 .PHONY: check
-check: format lint ## Full check pipeline: format, lint
+check: format lint lockfile-update pre-commit ## Full check pipeline: format, lint, lockfile-update, pre-commit
 
 .PHONY: ci
-ci: clean check test ## Full CI pipeline: clean, format, lint, test
+ci: clean check test check-safety ## Full CI pipeline: clean, format, lint, test, check-safety
 
 ##@ Development
 

@@ -5,7 +5,7 @@
 ## Quick Start
 
 1. Install `uv`.
-2. Run `make init`.
+2. Run `make install`.
 3. Run `make test`.
 4. Run `make run`.
 

@@ -11,8 +11,10 @@ Use this skill to turn a small project brief into a ready-to-run Python reposito
 
 1. Collect the project metadata in a config file. Prefer `assets/examples/project-config.toml`.
 2. Render the bundled template with `scripts/render_project.py`.
-3. Review the generated repository and adjust dependencies or docs only if the user asked for extra customization.
-4. When the environment allows it, finish by running `make init`, `make format`, and `make test` inside the generated project.
+3. In the generated project directory, initialize git with `git init` and switch to `master` using `git checkout -B master`.
+4. Copy the generated `pre-commit` hook file into `.git/hooks/pre-commit`, then make it executable with `chmod +x .git/hooks/pre-commit`.
+5. Review the generated repository and adjust dependencies or docs only if the user asked for extra customization.
+6. When the environment allows it, finish by running `make install`, `make format`, and `make test` inside the generated project.
 
 ## Commands
 
@@ -31,6 +33,16 @@ python3 scripts/render_project.py \
   --config /absolute/path/to/existing-project/project-config.toml \
   --output /absolute/path/to/existing-project \
   --overwrite
+```
+
+After rendering, bootstrap git and install the local pre-commit hook:
+
+```bash
+cd /absolute/path/to/new-project
+git init
+git checkout -B master
+cp pre-commit .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
 ```
 
 ## Defaults
