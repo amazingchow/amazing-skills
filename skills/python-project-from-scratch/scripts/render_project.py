@@ -151,6 +151,9 @@ def build_environment() -> Environment:
         keep_trailing_newline=True,
         lstrip_blocks=False,
         trim_blocks=False,
+        # Avoid collisions with shell syntax like `${#var}` in templates.
+        comment_start_string="[#",
+        comment_end_string="#]",
         undefined=StrictUndefined,
     )
 
