@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handoff Your Work"
+  short_description: "Write actionable AI-to-AI handoff briefs"
+  default_prompt: "Use $handoff-your-work to produce a concrete handoff brief for the next agent in ./{yymmdd}-handoff.md."

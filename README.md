@@ -8,6 +8,7 @@ This repository follows the [Agent Skills](https://agentskills.io/) format.
 
 | Skill | What It Does |
 | --- | --- |
+| `handoff-your-work` | Produces high-signal AI-to-AI handoff briefs that let a fresh agent continue work quickly. |
 | `python-project-from-scratch` | Scaffolds a new `uv`-based Python project from a structured config file and bundled templates. |
 | `python-unix-philosophy` | Applies Unix philosophy to Python design, refactoring, and code review decisions. |
 | `sync-self-explanatory-docs` | Keeps Python architecture docs aligned with code across root, package, and module levels. |
@@ -34,6 +35,10 @@ Review this Python module using Unix philosophy principles.
 
 ```text
 I refactored the package layout. Sync architecture docs with the code.
+```
+
+```text
+Create a handoff brief for the next agent in ./260327-handoff.md.
 ```
 
 ## Skill Structure
