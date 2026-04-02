@@ -1,0 +1,4 @@
+interface:
+  display_name: "Browser Semantic Snapshot"
+  short_description: "Extract auth-aware page snapshots for Claude or Codex"
+  default_prompt: "Use $browser-semantic-snapshot to turn this webpage URL into a browser semantic snapshot I can paste into Claude Code or Codex."

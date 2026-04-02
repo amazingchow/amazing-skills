@@ -1,0 +1,14 @@
+- document "Acme Dashboard"
+  - banner
+    - link "Acme" [ref=s1]
+    - button "Open user menu" [ref=s2]
+  - navigation "Primary"
+    - link "Overview" [ref=s3]
+    - link "Reports" [ref=s4]
+  - main
+    - heading "Revenue overview" [level=1]
+    - button "Create report" [ref=s5]
+    - table
+      - row
+        - cell "North America"
+        - cell "$420,000"
