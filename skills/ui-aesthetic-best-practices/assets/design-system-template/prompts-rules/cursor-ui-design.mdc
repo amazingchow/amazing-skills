@@ -1,0 +1,47 @@
+---
+description: UI design rule for generating tasteful interfaces from a design system instead of copying reference sites
+globs:
+alwaysApply: false
+---
+
+# UI Design Rule
+
+## Goal
+
+Generate UI that preserves the intended mood of the reference set while clearly avoiding direct reconstruction of any single source page.
+
+## Required Process
+
+1. Read the design system before drafting UI.
+2. Prefer semantic tokens over hard-coded values.
+3. Reuse existing components and patterns before inventing new ones.
+4. Explain how the new layout differs from the reference sources.
+
+## Hard Constraints
+
+- Do not recreate a reference page section-by-section.
+- Do not reuse distinct brand copy, iconography, illustration style, or visual motifs from the source sites.
+- Change at least 3 of the following when generating a new page:
+  - grid
+  - proportions
+  - whitespace rhythm
+  - corner treatment
+  - border strategy
+  - shadow strategy
+- Avoid generic AI landing-page tropes unless the design system explicitly calls for them.
+
+## Visual Quality Rules
+
+- Establish hierarchy through spacing and typography before adding visual decoration.
+- Use one dominant accent and keep the rest restrained.
+- Prefer strong section-level composition over noisy micro-styling.
+- Avoid purple-on-white defaults, overused glassmorphism, and heavy gradients unless requested.
+
+## Output Checklist
+
+Before finalizing a UI proposal, confirm:
+
+- Which semantic tokens are used
+- Which components are reused
+- Which pattern each section follows
+- Which deliberate changes make the result original

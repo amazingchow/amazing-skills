@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Aesthetic Best Practices"
+  short_description: "Build tasteful UI systems and original pages"
+  default_prompt: "Use $ui-aesthetic-best-practices to turn reference websites into a reusable design system and a more original, tasteful UI direction."

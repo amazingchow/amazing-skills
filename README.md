@@ -12,6 +12,7 @@ This repository follows the [Agent Skills](https://agentskills.io/) format.
 | `python-project-from-scratch` | Scaffolds a new `uv`-based Python project from a structured config file and bundled templates. |
 | `python-unix-philosophy` | Applies Unix philosophy to Python design, refactoring, and code review decisions. |
 | `sync-self-explanatory-docs` | Keeps Python architecture docs aligned with code across root, package, and module levels. |
+| `ui-aesthetic-best-practices` | Turns reference websites or Figma boards into design systems, AI guardrails, and more original high-aesthetic UI directions. |
 
 ## Installation
 
@@ -39,6 +40,10 @@ I refactored the package layout. Sync architecture docs with the code.
 
 ```text
 Create a handoff brief for the next agent in ./260327-handoff.md.
+```
+
+```text
+Use the UI aesthetic skill to turn these reference websites into a design system and a more original landing page direction.
 ```
 
 ## Skill Structure
